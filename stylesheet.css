@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Lora|Pacifico|Lobster);
+
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lora', serif;
+    background-color: cornsilk;
+    padding-bottom: 40px;
+}
+h1, h2, h3, h4, h5, h6, nav{
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+    background-color: burlywood;
+    font-family: 'Pacifico', cursive;
+    clear: both;
+    text-align: right;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    position:fixed;
+}
+ol, ul{
+    font-family: 'Lobster', cursive;
+}
+a{
+    color: black;
+}
+section{
+    float: left; 
+    clear: left;
+}
+aside{
+    float: inherit;
+}
+header{
+    background-color: burlywood;
+    color: black;
+    }
+nav{
+    font-size: 25px;
+    background-color: brown;
+}
+header, nav{
+     text-align: center;
+}
+fieldset{
+    width: 480px;
+    margin: 0;
+    
+}
+.center{
+    text-align: center;
+}
+#email{
+    text-align: center;
+    font-size: 28px;
+    overflow-x: auto;
+}
+textarea{
+    margin: 0;
+    width: 400px;
+    height: 120px;
+}
+.story{
+    font-size: 20px;
+}
+.foot{
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+    Status API Training Shop Blog About 
+
